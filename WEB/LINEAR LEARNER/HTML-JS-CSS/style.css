@@ -1,0 +1,79 @@
+/*
+  INSTRUCTION:
+  This CSS file styles the UI with a modern, clean look.
+  Adjust these styles if you need to change the appearance or layout.
+*/
+
+/* Apply a soft background and basic font settings to the entire page */
+body {
+  background-color: #f4f4f9;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Container to center the content and add a white background with a shadow */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center headings within the container */
+h2, h3 {
+  text-align: center;
+}
+
+/* Style the textarea for user input */
+textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the submit button with modern design and smooth hover effect */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change button background on hover */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the table for displaying API responses */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Style each table cell */
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Add spacing to the response area */
+#response {
+  margin-top: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inference Test</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!--
+    INSTRUCTION:
+    This HTML file sets up the basic UI.
+    Modify this file if you need additional input fields or layout changes.
+  -->
+</head>
+<body>
+  <!-- Optional: Wrap content in a container for centralized styling -->
+  <div class="container">
+    <h2>Test Prediction</h2>
+    <!--
+      User Input Area:
+      Enter a string of comma-separated numbers. Modify this if your input format needs to change.
+    -->
+    <textarea id="inputData" rows="8" cols="80">
+1048,527453160,160,24,2308,6,6,1975,1975,0,286,294,275,855,855,601,0,1456,0,0,2,1,4,1,7,0,1975,2,460,0,0,0,0,0,0,0,5,2008,0.0078632479,0.075555556,0.0075213675,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+    </textarea>
+    <br><br>
+    <!--
+      Button:
+      Clicking this button triggers the API call.
+      Modify the event listener in main.js if you want to change the trigger.
+    -->
+    <button id="submitBtn">Submit to API</button>
+    <h3>Response:</h3>
+    <!--
+      Response Area:
+      The API response will be rendered here as an HTML table.
+      Update this area if you want to display additional information.
+    -->
+    <div id="response"></div>
+  </div>
+  <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
