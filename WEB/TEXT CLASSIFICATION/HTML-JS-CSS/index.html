@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BlazingText Classification Demo</title>
+  <!-- Link to your external CSS file for styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main container for the demo -->
+  <div class="container">
+    <!-- Header for the demo -->
+    <h2>BlazingText Classification Demo</h2>
+    
+    <!-- 
+      User Input Area:
+      Enter one or more lines of text. Each line will be treated as a separate instance.
+      The sample reviews below include one positive review and one negative review.
+    -->
+    <textarea id="inputData" rows="6" cols="80">
+I absolutely loved this restaurant! The food was fantastic and the service was outstanding.
+I was very disappointed with this restaurant. The food was bland and the service was terrible.
+    </textarea>
+    <br><br>
+    
+    <!-- 
+      Button: Triggers the API call.
+      Ensure the element ID "submitBtn" matches the one used in your JavaScript.
+    -->
+    <button id="submitBtn">Submit to API</button>
+    
+    <!-- Section for displaying the API response -->
+    <h3>Response:</h3>
+    <div id="response"></div>
+  </div>
+
+  <!-- Link to the external JavaScript file (ensure the file name matches your implementation) -->
+  <script src="script.js"></script>
+</body>
+</html>
